@@ -2,18 +2,26 @@
   "name": "hapi-github",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^21.3.2"
+    "@hapi/hapi": "^21.3.2",
+    "joi": "^17.12.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/hapi__hapi": "^21.0.0",
+    "@types/joi": "^17.2.3",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
