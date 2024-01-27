@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["@hapi/hapi", "joi"],
+    "types": ["@hapi/hapi", "joi", "jest"],
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
